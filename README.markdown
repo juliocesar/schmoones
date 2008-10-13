@@ -19,4 +19,4 @@ Schmoones comes with default settings for padding, margins, and sizes. You shoul
 
 ##Oh but...
 
-Yeah, it doesn't feature success or failure messages. I had no need for any of that, so I left it out. Specifying how long a message lasts on the screen is something I'm implement soon.
+Yeah, it doesn't feature success or failure messages. I had no need for any of that, so I left it out. Specifying how long a message lasts on the screen is something I'll implement soon.
