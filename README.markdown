@@ -10,6 +10,8 @@ Refer to [Choones' README](http://github.com/benschwarz/choones/tree/master) for
 Refer to the global SCHMOONES object that gets declared when you initialize a page:
 
     SCHMOONES.message({title: "Hola", message: "Mundo"})
+    
+Messages will display for 5 seconds. If there's any other message in the queue, it'll transition to it, otherwise, the container will go away.
 
 ##Styling
 
