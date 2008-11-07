@@ -19,7 +19,18 @@
     <div id="container">
       <h1>Schmoones</h1>
       <p><a href="#" onclick="SCHMOONES.message({title: 'Hola', message: 'mundo'})">Test it!</a></p>
-      <p><a href="#" onclick="SCHMOONES.message({title: 'Hola', message: 'mundo'}); SCHMOONES.message({title: 'Hola again', message: 'World'}) ">Show two in a row</a></p>
+      <p><a href="#" onclick="SCHMOONES.message({title: yada(), message: yada()}); SCHMOONES.message({title: yada(), message: yada()}) ">Show two in a row</a></p>
     </div>
-  </body>  
+    <script type="text/javascript" charset="utf-8">
+      function yada() {
+        var words = ['a', 'cat', 'and', 'dog', 'tree', 'bark', 'meows', 'schwarznegger', 'fat'];
+        var sentence = [];
+        var size = Math.floor(Math.random() * 5) + 1;
+        for (var i = 0; i < size ; i++) {
+          sentence.push(words[Math.floor(Math.random() * words.size())]);
+        }
+        return sentence.join(' ');
+      }
+    </script>
+  </body>
 </html>
