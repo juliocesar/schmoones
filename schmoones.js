@@ -38,7 +38,7 @@ Schmoones.prototype = {
   },
   
   vacant: function() {
-    if (!this.executing || (this.executing && ( (new Date().getTime() - this.started) > (this.executing.duration || 5000) ))) {
+    if (!this.executing || (this.executing && ( (new Date().getTime() - this.started) > (this.executing.duration * 1000 || 5000) ))) {
       return true;
     } else {
       return false;
